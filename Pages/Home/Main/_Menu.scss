@@ -1,0 +1,81 @@
+.Menu{
+    padding: 205px 0 260px;
+    
+    &__title{
+        margin: 0 auto;
+        max-width: 55%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 72px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    &__subtitle{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;     
+        color: #FFFFFF;
+        max-width: 546px;
+        margin: 0 auto 48px;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+    }
+    &__btn a{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__btn1{
+        background-color: #2D9CDB;
+        
+}
+}
+
+.partners{
+    
+    background-color: rgb(249, 249, 249);
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid white;
+    background-color:white ;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0;
+    // position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &__site{
+        gap: 45px;
+
+        &__left:hover{
+            padding: 10px;
+            border-radius: 50%;
+            display: flex;
+            background-color: #EB5757;;
+            
+        }
+    }
+   
+
+}
+
+@media (max-width: 775px) {
+    .partners__site{
+        width: 700px;
+        overflow: auto;
+    }
+}

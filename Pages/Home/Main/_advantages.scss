@@ -1,0 +1,109 @@
+.advantages{
+    padding: 80px 0;
+    h3{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 40px;
+    }
+    &__boxs{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 30px;
+        margin-bottom: 80px;
+
+        .box{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 16px rgba(51, 51, 51, 0.1);
+            border-radius: 9px;
+            gap: 20px;
+            padding: 40px 38px 80px 48px;
+            position: relative;
+            h4{
+                margin-bottom: 10px;
+            }
+            span{
+                font-weight: 100;
+                font-size: 80px;
+                line-height: 98px;
+                text-align: right;
+                color: #2B2B2B;
+                opacity: 0.1;
+                position: absolute;
+                right: 0;
+                bottom:0;
+            }
+        }
+    }
+    &__box5{
+        grid-column: 1 / 3;
+        padding: 40px 38px 40px 48px;
+        &__item{
+            h4{
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 28px;
+                color: #333333;
+                margin-bottom: 24px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #333333;
+                margin-bottom: 75px;
+                max-width: 60%;
+            }
+        
+        }
+        &__btn{
+            border: 1px solid gray;
+            text-align: center;
+            filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+            border-radius: 4px;
+            padding: 15px 32px; 
+            width: 25%;
+        }
+        &__people{
+            margin-bottom: 25px;
+
+            .title a{
+                color: red;
+            }
+        }
+    }
+    &__values{
+        gap: 30px;
+        &__number{
+            
+            ins{
+                font-weight: 300;
+                font-size: 48px;
+                line-height: 48px;
+                text-align: center;
+                color: #333333;
+                margin-bottom: 16px;
+            }
+            p{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+                color: #333333;
+                text-align: center;
+            }
+            span{
+                color: #EB5757;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 775px){
+    .advantages__values{
+        flex-wrap: wrap;
+    }
+}

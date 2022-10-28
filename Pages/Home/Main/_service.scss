@@ -1,0 +1,43 @@
+.service{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, #F4F5F9 32.81%, #F7F7FA 67.71%, rgba(255, 255, 255, 0.5) 100%), #F4F5F9;
+    padding: 80px 0px;
+    h3{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        color: #333333;
+        margin-bottom: 40px;
+    }
+    &__boxs{
+        gap: 30px;
+    }
+    &__box{
+        background: #FFFFFF;
+        box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.08);
+        border-radius: 9px;
+        padding: 24px 36px 46px 24px;
+       
+        img{
+            margin-bottom: 24px;
+        }
+        h4{
+            margin-bottom: 16px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #333333;
+            max-width: 290px;
+        }
+        li{
+            margin-bottom: 12px;
+        }
+    }
+}
+
+@media (max-width: 775px){
+    .service__boxs{
+        flex-direction: column;
+    }
+}
+
